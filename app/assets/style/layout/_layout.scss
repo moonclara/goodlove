@@ -1,0 +1,47 @@
+.navbar {
+
+    h2 {
+        background-image: url(../images/logo-2.png);
+        width: 200px;
+        height: 103px;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .nav-item .nav-link {
+        padding: 0px 28px;
+
+        @include desktop {
+            text-align: center;
+            padding: 14px 0px;
+        }
+
+        &:hover {
+            color: $secondary-2;
+        }
+    }
+
+    .nav-item .nav-link.active {
+        color: $secondary-2;
+    }
+}
+
+.footer {
+    background-image: url(../images/bg-footer-4.png);
+    min-height: 730px;
+    margin-top: -37rem;
+    padding-top: 39rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include pad {
+        background-image: url(../images/bg-footer-4-sm.png);
+        min-height: 525px;
+        margin-top: -38rem;
+        padding-top: 16rem;
+    }
+}

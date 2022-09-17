@@ -1,0 +1,25 @@
+.contact-ask {
+    background-image: url(../images/bg-contact-2.png);
+    min-height: 600px;
+    margin-bottom: 10rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include pad {
+        margin-bottom: 5rem;
+    }
+
+}
+
+.contact-form {
+    padding-bottom: 35rem;
+    max-width: 50%;
+
+    @include pad {
+        padding-bottom: 20rem;
+
+        max-width: 100%;
+
+    }
+}

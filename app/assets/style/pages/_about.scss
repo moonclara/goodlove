@@ -1,0 +1,50 @@
+.about {
+    h1 {
+        padding-top: 10rem;
+    }
+}
+
+.process {
+    background-image: url(../images/bg-about-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20rem;
+    min-height: 3600px;
+
+    @include pad {
+        background-image: none;
+        padding-top: unset;
+        padding-bottom: 18rem;
+    }
+
+    .process-space {
+        margin-top: -11rem;
+
+        @include pad {
+            margin-top: unset;
+        }
+    }
+
+    .process-deco-1 {
+        margin-top: 12rem;
+        margin-left: 5rem;
+
+        @include pad {
+            display: none;
+        }
+    }
+
+    .process-deco-2 {
+        margin-top: 12rem;
+        margin-right: -2rem;
+
+        @include pad {
+            display: none;
+        }
+    }
+
+    img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
